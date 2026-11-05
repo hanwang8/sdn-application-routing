@@ -1,0 +1,27 @@
+=== run 1
+[1/5] Ryu controller is ready.
+[2/5] Topology started: h1--s1--{s2,s3}--s4--h2
+[3/5] Verifying basic connectivity and learning ARP...
+[4/5] HTTP: upper=1,661 bytes, lower=0 bytes [PASS]
+Sent 8388608 bytes; server received 8388608 bytes
+[5/5] BULK: upper=0 bytes, lower=8,411,269 bytes [PASS]
+Overall result: PASS
+exit=0
+=== run 2
+[1/5] Ryu controller is ready.
+[2/5] Topology started: h1--s1--{s2,s3}--s4--h2
+[3/5] Verifying basic connectivity and learning ARP...
+[4/5] HTTP: upper=1,661 bytes, lower=0 bytes [PASS]
+Sent 8388608 bytes; server received 8388608 bytes
+[5/5] BULK: upper=0 bytes, lower=8,416,021 bytes [PASS]
+Overall result: PASS
+exit=0
+=== run 3
+[1/5] Ryu controller is ready.
+[2/5] Topology started: h1--s1--{s2,s3}--s4--h2
+[3/5] Verifying basic connectivity and learning ARP...
+[4/5] HTTP: upper=1,661 bytes, lower=0 bytes [PASS]
+Sent 8388608 bytes; server received 8388608 bytes
+[5/5] BULK: upper=0 bytes, lower=8,423,875 bytes [PASS]
+Overall result: PASS
+exit=0
